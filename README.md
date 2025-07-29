@@ -1,20 +1,14 @@
-# 🎮 PixelQuest Adventure
-
-PixelQuest adalah game petualangan bergaya pixel art retro yang dibuat dengan Python dan Pygame. Jelajahi dunia 2D klasik, hadapi musuh, dan kumpulkan item!
-
-![Gameplay Screenshot](https://via.placeholder.com/600x300.png?text=Your+Pixel+Game+Here)
-
-## 🕹️ Fitur Utama
-- 🎨 Pixel art retro buatan sendiri
-- ⚔️ Musuh dan tantangan di setiap level
-- 💎 Power-up dan collectible item
-- 🔊 Musik & efek suara 8-bit
-- 🎮 Kontrol keyboard sederhana
-
-## 🚀 Cara Menjalankan
-
-```bash
-git clone https://github.com/kamu/pixelquest-adventure.git
-cd pixelquest-adventure
-pip install -r requirements.txt
-python src/main.py
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MiniPixelJump</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Mini Pixel Jump</h1>
+  <canvas id="gameCanvas" width="480" height="320"></canvas>
+  <script src="script.js"></script>
+</body>
+</html>
