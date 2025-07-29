@@ -1,41 +1,97 @@
+document.addEventListener('DOMContentLoaded', () => {
+    const circles = document.querySelectorAll('.circle');
+    const targetColorText = document.getElementById('target-color-text');
+    const scoreValue = document.getElementById('score-value');
+    const startButton = document.getElementById('start-button');
+    const gameMessage = document.getElementById('game-message');
 
-<h1 align="center">🌸 Anime Portfolio — Animated Dream Web</h1>
-<p align="center">
-  <img src="https://media.tenor.com/YccW4AUduzgAAAAd/anime-scenery.gif" width="300" />
-</p>
+    let score = 0;
+    let targetColor = '';
+    let gameActive = false;
 
-<p align="center">
-  🎨 A beautiful animated portfolio site with anime vibes and soft pastel transitions. Built for dreamers, designers, and developers who love motion.
-</p>
+    // Define colors and their names
+    const colors = {
+        red: '#FF0000',
+        blue: '#0000FF',
+        green: '#008000',
+        yellow: '#FFFF00',
+        purple: '#800080',
+        orange: '#FFA500'
+    };
+    const colorNames = Object.keys(colors);
 
----
+    // Load sounds
+    const correctSound = new Audio('sounds/correct.wav');
+    const wrongSound = new Audio('sounds/wrong.wav');
 
-## ✨ Features
+    // Function to play sound
+    function playSound(sound) {
+        sound.currentTime = 0; // Rewind to start if already playing
+        sound.play().catch(e => console.error("Error playing sound:", e));
+    }
 
-- 🎞️ Smooth scroll & animated transitions
-- 🎴 Card-style portfolio with hover effects
-- 🌌 Anime aesthetic with glowing elements
-- 📱 Responsive design
-- 🎧 Optional music player embed (BGM)
+    // Function to set up a new round
+    function newRound() {
+        if (!gameActive) return;
 
----
+        // Reset message
+        gameMessage.textContent = '';
 
-## 🌐 Live Demo
+        // Randomly assign colors to circles
+        const shuffledColors = [...colorNames].sort(() => 0.5 - Math.random());
+        circles.forEach((circle, index) => {
+            const colorName = shuffledColors[index];
+            circle.style.backgroundColor = colors[colorName];
+            circle.dataset.color = colorName; // Store color name in data attribute
+        });
 
-🔗 [Visit Site](https://alkaygy.github.io/anime-portfolio)
+        // Choose a random target color
+        targetColor = colorNames[Math.floor(Math.random() * colorNames.length)];
+        targetColorText.textContent = targetColor.toUpperCase();
+    }
 
----
+    // Handle circle click
+    circles.forEach(circle => {
+        circle.addEventListener('click', () => {
+            if (!gameActive) return;
 
-## 📷 Preview
+            const clickedColor = circle.dataset.color;
+            if (clickedColor === targetColor) {
+                score++;
+                scoreValue.textContent = score;
+                playSound(correctSound);
+                gameMessage.textContent = 'Benar!';
+                gameMessage.style.color = '#aaffaa';
+            } else {
+                score = Math.max(0, score - 1); // Decrease score, but not below 0
+                scoreValue.textContent = score;
+                playSound(wrongSound);
+                gameMessage.textContent = `Salah! Itu ${clickedColor}.`;
+                gameMessage.style.color = '#ff6666';
+            }
+            // Start a new round after a short delay
+            setTimeout(newRound, 700);
+        });
+    });
 
-![Preview](https://yourimageurl.com/preview.gif)
+    // Start game function
+    startButton.addEventListener('click', () => {
+        score = 0;
+        scoreValue.textContent = score;
+        gameActive = true;
+        startButton.classList.add('hidden'); // Hide start button
+        gameMessage.textContent = 'Mulai!';
+        gameMessage.style.color = '#ffdd57';
+        // Show circles if they were hidden (e.g., after game over)
+        circles.forEach(circle => circle.classList.remove('hidden'));
+        targetColorText.parentElement.classList.remove('hidden'); // Show instruction
+        scoreValue.parentElement.classList.remove('hidden'); // Show score
+        setTimeout(newRound, 1000); // Start first round after a short delay
+    });
 
----
-
-## ⚙️ Tech Stack
-
-```bash
-🔧 HTML5 + CSS3 + JavaScript
-🎨 AOS (Animate on Scroll)
-🎐 GSAP or Lottie animations
-🎵 Optional: Embed music player with IFrame or Audio API
+    // Initial setup: hide game elements until start button is clicked
+    circles.forEach(circle => circle.classList.add('hidden'));
+    targetColorText.parentElement.classList.add('hidden'); // Hide instruction
+    scoreValue.parentElement.classList.add('hidden'); // Hide score
+    gameMessage.textContent = 'Tekan "Mulai Game" untuk bermain!';
+});
