@@ -1,77 +1,20 @@
-File: src/main.py
+# 🎮 PixelQuest Adventure
 
-import pygame from config import * from player import Player
+PixelQuest adalah game petualangan bergaya pixel art retro yang dibuat dengan Python dan Pygame. Jelajahi dunia 2D klasik, hadapi musuh, dan kumpulkan item!
 
-pygame.init() screen = pygame.display.set_mode((WIDTH, HEIGHT)) pygame.display.set_caption("PixelQuest") clock = pygame.time.Clock()
+![Gameplay Screenshot](https://via.placeholder.com/600x300.png?text=Your+Pixel+Game+Here)
 
-player = Player(100, 100)
+## 🕹️ Fitur Utama
+- 🎨 Pixel art retro buatan sendiri
+- ⚔️ Musuh dan tantangan di setiap level
+- 💎 Power-up dan collectible item
+- 🔊 Musik & efek suara 8-bit
+- 🎮 Kontrol keyboard sederhana
 
-running = True while running: screen.fill((0, 0, 0))
+## 🚀 Cara Menjalankan
 
-for event in pygame.event.get():
-    if event.type == pygame.QUIT:
-        running = False
-
-keys = pygame.key.get_pressed()
-player.update(keys)
-player.draw(screen)
-
-pygame.display.flip()
-clock.tick(FPS)
-
-pygame.quit()
-
-File: src/config.py
-
-WIDTH = 800 HEIGHT = 600 FPS = 60 PLAYER_SPEED = 5
-
-File: src/player.py
-
-import pygame from config import *
-
-class Player: def init(self, x, y): self.image = pygame.image.load("assets/characters/hero.png") self.rect = self.image.get_rect() self.rect.topleft = (x, y)
-
-def update(self, keys):
-    if keys[pygame.K_LEFT]:
-        self.rect.x -= PLAYER_SPEED
-    if keys[pygame.K_RIGHT]:
-        self.rect.x += PLAYER_SPEED
-    if keys[pygame.K_UP]:
-        self.rect.y -= PLAYER_SPEED
-    if keys[pygame.K_DOWN]:
-        self.rect.y += PLAYER_SPEED
-
-def draw(self, surface):
-    surface.blit(self.image, self.rect)
-
-File: requirements.txt
-
-pygame==2.5.2
-
-File: README.md
-
-PixelQuest
-
-PixelQuest adalah game petualangan bergaya pixel art. Kamu akan bermain sebagai pahlawan pixel yang menjelajahi dunia berbahaya!
-
-Cara Menjalankan
-
+```bash
+git clone https://github.com/kamu/pixelquest-adventure.git
+cd pixelquest-adventure
 pip install -r requirements.txt
 python src/main.py
-
-Kontrol
-
-Panah ← ↑ → ↓ untuk bergerak
-
-Tambahkan fitur serang di versi berikutnya!
-
-
-Lisensi
-
-Open source untuk tujuan pembelajaran.
-
-
----
-
-Note: Jangan lupa
-
