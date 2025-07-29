@@ -1,97 +1,77 @@
-document.addEventListener('DOMContentLoaded', () => {
-    const circles = document.querySelectorAll('.circle');
-    const targetColorText = document.getElementById('target-color-text');
-    const scoreValue = document.getElementById('score-value');
-    const startButton = document.getElementById('start-button');
-    const gameMessage = document.getElementById('game-message');
+File: src/main.py
 
-    let score = 0;
-    let targetColor = '';
-    let gameActive = false;
+import pygame from config import * from player import Player
 
-    // Define colors and their names
-    const colors = {
-        red: '#FF0000',
-        blue: '#0000FF',
-        green: '#008000',
-        yellow: '#FFFF00',
-        purple: '#800080',
-        orange: '#FFA500'
-    };
-    const colorNames = Object.keys(colors);
+pygame.init() screen = pygame.display.set_mode((WIDTH, HEIGHT)) pygame.display.set_caption("PixelQuest") clock = pygame.time.Clock()
 
-    // Load sounds
-    const correctSound = new Audio('sounds/correct.wav');
-    const wrongSound = new Audio('sounds/wrong.wav');
+player = Player(100, 100)
 
-    // Function to play sound
-    function playSound(sound) {
-        sound.currentTime = 0; // Rewind to start if already playing
-        sound.play().catch(e => console.error("Error playing sound:", e));
-    }
+running = True while running: screen.fill((0, 0, 0))
 
-    // Function to set up a new round
-    function newRound() {
-        if (!gameActive) return;
+for event in pygame.event.get():
+    if event.type == pygame.QUIT:
+        running = False
 
-        // Reset message
-        gameMessage.textContent = '';
+keys = pygame.key.get_pressed()
+player.update(keys)
+player.draw(screen)
 
-        // Randomly assign colors to circles
-        const shuffledColors = [...colorNames].sort(() => 0.5 - Math.random());
-        circles.forEach((circle, index) => {
-            const colorName = shuffledColors[index];
-            circle.style.backgroundColor = colors[colorName];
-            circle.dataset.color = colorName; // Store color name in data attribute
-        });
+pygame.display.flip()
+clock.tick(FPS)
 
-        // Choose a random target color
-        targetColor = colorNames[Math.floor(Math.random() * colorNames.length)];
-        targetColorText.textContent = targetColor.toUpperCase();
-    }
+pygame.quit()
 
-    // Handle circle click
-    circles.forEach(circle => {
-        circle.addEventListener('click', () => {
-            if (!gameActive) return;
+File: src/config.py
 
-            const clickedColor = circle.dataset.color;
-            if (clickedColor === targetColor) {
-                score++;
-                scoreValue.textContent = score;
-                playSound(correctSound);
-                gameMessage.textContent = 'Benar!';
-                gameMessage.style.color = '#aaffaa';
-            } else {
-                score = Math.max(0, score - 1); // Decrease score, but not below 0
-                scoreValue.textContent = score;
-                playSound(wrongSound);
-                gameMessage.textContent = `Salah! Itu ${clickedColor}.`;
-                gameMessage.style.color = '#ff6666';
-            }
-            // Start a new round after a short delay
-            setTimeout(newRound, 700);
-        });
-    });
+WIDTH = 800 HEIGHT = 600 FPS = 60 PLAYER_SPEED = 5
 
-    // Start game function
-    startButton.addEventListener('click', () => {
-        score = 0;
-        scoreValue.textContent = score;
-        gameActive = true;
-        startButton.classList.add('hidden'); // Hide start button
-        gameMessage.textContent = 'Mulai!';
-        gameMessage.style.color = '#ffdd57';
-        // Show circles if they were hidden (e.g., after game over)
-        circles.forEach(circle => circle.classList.remove('hidden'));
-        targetColorText.parentElement.classList.remove('hidden'); // Show instruction
-        scoreValue.parentElement.classList.remove('hidden'); // Show score
-        setTimeout(newRound, 1000); // Start first round after a short delay
-    });
+File: src/player.py
 
-    // Initial setup: hide game elements until start button is clicked
-    circles.forEach(circle => circle.classList.add('hidden'));
-    targetColorText.parentElement.classList.add('hidden'); // Hide instruction
-    scoreValue.parentElement.classList.add('hidden'); // Hide score
-    gameMessage.textContent = 'Tekan "Mulai Game" untuk bermain!';
-});
+import pygame from config import *
+
+class Player: def init(self, x, y): self.image = pygame.image.load("assets/characters/hero.png") self.rect = self.image.get_rect() self.rect.topleft = (x, y)
+
+def update(self, keys):
+    if keys[pygame.K_LEFT]:
+        self.rect.x -= PLAYER_SPEED
+    if keys[pygame.K_RIGHT]:
+        self.rect.x += PLAYER_SPEED
+    if keys[pygame.K_UP]:
+        self.rect.y -= PLAYER_SPEED
+    if keys[pygame.K_DOWN]:
+        self.rect.y += PLAYER_SPEED
+
+def draw(self, surface):
+    surface.blit(self.image, self.rect)
+
+File: requirements.txt
+
+pygame==2.5.2
+
+File: README.md
+
+PixelQuest
+
+PixelQuest adalah game petualangan bergaya pixel art. Kamu akan bermain sebagai pahlawan pixel yang menjelajahi dunia berbahaya!
+
+Cara Menjalankan
+
+pip install -r requirements.txt
+python src/main.py
+
+Kontrol
+
+Panah ← ↑ → ↓ untuk bergerak
+
+Tambahkan fitur serang di versi berikutnya!
+
+
+Lisensi
+
+Open source untuk tujuan pembelajaran.
+
+
+---
+
+Note: Jangan lupa
+
