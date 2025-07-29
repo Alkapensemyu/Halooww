@@ -1,41 +1,41 @@
-death-note-clone
 
-<h1 align="center">☠️ Death Note Clone — Dark Themed Note App</h1>
+<h1 align="center">🌸 Anime Portfolio — Animated Dream Web</h1>
 <p align="center">
-  <img src="https://media.tenor.com/JacW-FZBeb4AAAAC/light-yagami.gif" width="200" />
+  <img src="https://media.tenor.com/YccW4AUduzgAAAAd/anime-scenery.gif" width="300" />
 </p>
 
 <p align="center">
-  ✒️ A dark, minimal note-taking app inspired by *Death Note*, built with React + Tailwind. Write your thoughts... if you dare.
+  🎨 A beautiful animated portfolio site with anime vibes and soft pastel transitions. Built for dreamers, designers, and developers who love motion.
 </p>
 
 ---
 
-## ⚙️ Features
+## ✨ Features
 
-- 🕶️ Dark mode UI inspired by Death Note anime
-- ✍️ Create, delete, and edit notes
-- 📦 LocalStorage support (no backend needed)
-- ⚡ Built with React + Tailwind CSS
-
----
-
-## 🚀 Demo
-
-🔗 [Live Preview](https://alkaygy.github.io/death-note-clone) *(ganti dengan link milikmu)*
+- 🎞️ Smooth scroll & animated transitions
+- 🎴 Card-style portfolio with hover effects
+- 🌌 Anime aesthetic with glowing elements
+- 📱 Responsive design
+- 🎧 Optional music player embed (BGM)
 
 ---
 
-## 🖼️ Preview
+## 🌐 Live Demo
 
-![App Screenshot](https://yourimageurl.com/preview.png)
+🔗 [Visit Site](https://alkaygy.github.io/anime-portfolio)
 
 ---
 
-## 🔧 Installation
+## 📷 Preview
+
+![Preview](https://yourimageurl.com/preview.gif)
+
+---
+
+## ⚙️ Tech Stack
 
 ```bash
-git clone https://github.com/alkaygy/death-note-clone.git
-cd death-note-clone
-npm install
-npm run dev
+🔧 HTML5 + CSS3 + JavaScript
+🎨 AOS (Animate on Scroll)
+🎐 GSAP or Lottie animations
+🎵 Optional: Embed music player with IFrame or Audio API
