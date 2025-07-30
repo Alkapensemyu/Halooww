@@ -35,6 +35,12 @@
   <img src="https://github-readme-streak-stats.herokuapp.comuser=Alkapensemyu&theme=tokyonight&hide_border=true&border_radius=10" alt="GitHub Streak"/>
 </p>
 
+## 📊 Top Languages
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Alkapensemyu&layout=compact&theme=tokyonight&hide_border=true" alt="Top Langs"/>
+</p>
+
 
 </div>
 
