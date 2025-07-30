@@ -1,7 +1,7 @@
 <h1 align="center" style="color:#a259ff;">🪐 hallowww im alka  👋</h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=A259FF&center=true&vCenter=true&width=500&lines=Hi,+I'm+Alka+YGY.;Creative+Dev+%7C+Game+Builder+%7C+Pixel+Lover.;Let’s+create+something+beautiful!" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=A259FF&center=true&vCenter=true&width=500&lines=Hi,+I'm+Alka+.;Creative+Dev+%7C+Game+Builder+%7C+Pixel+Lover.;Let’s+create+something+beautiful!" alt="Typing SVG" />
 </p>
 
 ---
@@ -33,10 +33,10 @@
 ### 🌐 Let's Connect
 
 <p align="center">
-  <a href="https://instagram.com/yourusername">
+  <a href="https://www.instagram.com/alkaaynn?igsh=MXU4aGM2cjdtMG15OA==">
     <img src="https://img.shields.io/badge/Instagram-833AB4?style=for-the-badge&logo=instagram&logoColor=white"/>
   </a>
-  <a href="mailto:youremail@gmail.com">
+  <a href="mailto: inialkaamwehehe@gmail.com@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-A259FF?style=for-the-badge&logo=gmail&logoColor=white"/>
   </a>
 </p>
