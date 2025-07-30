@@ -21,11 +21,19 @@
 
 ---
 
-### 📈 GitHub Activity
+### 📊 GitHub Activity & Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=alkaYGY&show_icons=true&theme=radical&title_color=A259FF&icon_color=A259FF&text_color=ffffff&bg_color=0d1117" width="47%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=alkaYGY&theme=radical&ring=A259FF&currStreakLabel=A259FF" width="47%" />
+  <!-- Total Stats -->
+  <img src="https://github-readme-stats.vercel.app/api?username=alkaYGY&show_icons=true&theme=tokyonight&title_color=A259FF&icon_color=A259FF" width="48%" />
+
+  <!-- Streak -->
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=alkaYGY&theme=tokyonight&ring=A259FF&currStreakLabel=A259FF" width="48%" />
+</p>
+
+<!-- Language Pie -->
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=alkaYGY&layout=compact&theme=tokyonight&title_color=A259FF" width="40%" />
 </p>
 
 ---
