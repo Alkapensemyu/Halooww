@@ -36,13 +36,10 @@
     alt="GitHub Streak"
     width="500"
   />
-### 📌 Highlighted Projects
 
-- 🔧 [Pixel Dungeon](https://github.com/Alkapensemyu/pixel-dungeon)  
-  Mini canvas-based game built with JS + retro UI.
-
-- 🪄 [Magic Buttons](https://github.com/Alkapensemyu/magic-buttons)  
-  Beautiful CSS-only animated buttons for web apps.
+  ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3)
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
 
 </div>
 
