@@ -32,9 +32,8 @@
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Alkapensemyu&theme=tokyonight" alt="GitHub Streak" />
 </p>
 
-
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Alkapensemyu/Alkapensemyu/output/github-contribution-grid-snake.svg" alt="snake" />
+  <img src="https://komarev.com/ghpvc/?username=Alkapensemyu&style=flat-square&color=blue" alt="Visitor Count" />
 </p>
 
 
