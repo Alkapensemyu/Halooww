@@ -32,7 +32,7 @@
 ## 🔥 GitHub Streak
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=Alkapensemyu&theme=tokyonight&hide_border=true&border_radius=10" alt="GitHub Streak"/>
+  <img src="https://github-readme-streak-stats.herokuapp.comuser=Alkapensemyu&theme=tokyonight&hide_border=true&border_radius=10" alt="GitHub Streak"/>
 </p>
 
 
