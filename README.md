@@ -31,7 +31,9 @@
   />
 ## 🔥 GitHub Streak
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=Alkapensemyu&theme=tokyonight&hide_border=true&border_radius=10)](https://git.io/streak-stats)
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=Alkapensemyu&theme=tokyonight&hide_border=true&border_radius=10" alt="GitHub Streak"/>
+</p>
 
 
 </div>
