@@ -12,7 +12,31 @@
 - 🌱 Learning: WebGL, shaders, and sound FX for the web
 - 💬 Let’s connect, collaborate, and make magic
 
-- <style>
+👋 Hallowww im alka
+
+> Let’s create something
+
+
+
+
+---
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Alkapense/NAMA-REPO/main/your-avatar.png" width="150" alt="Alka Avatar" />
+</p>
+---
+
+🎮 About Me
+
+Currently building cool front-end stuff & mini pixel games
+Obsessed with CSS animation, canvas art, and retro UI
+Learning: WebGL, shaders, and sound FX for the web
+Let’s connect, collaborate, and make magic ✨
+
+
+---
+
+<h3 align="center" class="glitch" data-text="⚡ Alka: Code Wizard">⚡ Alka: Code Wizard</h3><style>
 .glitch {
   color: white;
   font-size: 28px;
@@ -57,10 +81,11 @@
   100% { top: 0px; left: 0px; }
 }
 </style>
-
-<h2 class="glitch" data-text="⚡ Alka: Code Wizard">⚡ Alka: Code Wizard</h2>
-
 ---
+
+🛠️ Tech Stack & Tools
+
+<img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,python,figma,git" alt="Tech Stack" />
 
 ### 🧠 Tech Stack & Tools
 <p align="center">
