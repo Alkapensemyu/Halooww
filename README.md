@@ -38,9 +38,6 @@
     alt="GitHub Streak"
     width="500"
   />
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&pause=1000&center=true&vCenter=true&color=00FFBF&width=435&lines=Hi+there!+I'm+Alkapensemyu;Frontend+%2F+Fullstack+Developer;Welcome+to+my+GitHub+Profile!)](https://git.io/typing-svg)
-
-<img src="https://link-ke-pixel-avatar-kamu.png" width="150" />
 
 
 </div>
