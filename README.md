@@ -41,7 +41,7 @@
 🌍 [GitHub Global](https://github-contribution-graph.vercel.app/?username=Alkapensemyu)
 
 <p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" />
+  <img src="https://activity-graph.herokuapp.com/graph?username=Alkapensemyu&theme=github" />
 </p>
 
 
