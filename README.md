@@ -12,13 +12,6 @@
 - 🌱 Learning: WebGL, shaders, and sound FX for the web
 - 💬 Let’s connect, collaborate, and make magic
 
-![Alka pixel hero](https://raw.githubusercontent.com/Alkapensemyu/repo/main/images/alka-pixel.gif)
----
-
-🛠️ Tech Stack & Tools
-
-<img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,python,figma,git" alt="Tech Stack" />
-
 ### 🧠 Tech Stack & Tools
 <p align="center">
   <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,python,figma,git" />
