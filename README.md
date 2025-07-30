@@ -25,15 +25,15 @@
 
 <p align="center">
   <!-- Total Stats -->
-  <img src="https://github-readme-stats.vercel.app/api?username=alkaYGY&show_icons=true&theme=tokyonight&title_color=A259FF&icon_color=A259FF" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Alkapensemyu&show_icons=true&theme=tokyonight&title_color=A259FF&icon_color=A259FF" width="48%" />
 
   <!-- Streak -->
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=alkaYGY&theme=tokyonight&ring=A259FF&currStreakLabel=A259FF" width="48%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Alkapensemyu&theme=tokyonight&ring=A259FF&currStreakLabel=A259FF" width="48%" />
 </p>
 
 <!-- Language Pie -->
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=alkaYGY&layout=compact&theme=tokyonight&title_color=A259FF" width="40%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Alkapensemyu&layout=compact&theme=tokyonight&title_color=A259FF" width="40%" />
 </p>
 
 ---
