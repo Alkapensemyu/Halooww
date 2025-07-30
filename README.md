@@ -1,7 +1,7 @@
 <h1 align="center">Hi there, I'm **[alka]** 👋</h1>
 
 <p align="center">
-  <img src="assets/banner.png" alt="Banner" width="600"/>
+  <img src="assets/banner.png" alt="Banner Art" width="600"/>
 </p>
 
 <p align="center">
