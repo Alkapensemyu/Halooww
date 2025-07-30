@@ -38,6 +38,7 @@
   <img src="https://github-profile-trophy.vercel.app/?username=Alkapensemyu&theme=onedark" alt="GitHub Trophy" />
 </p>
 
+🌍 [GitHub Globe](https://github-contribution-graph.vercel.app/?username=Alkapensemyu)
 
 
 
