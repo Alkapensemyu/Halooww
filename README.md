@@ -30,11 +30,9 @@
     width="500"
   />
 
-  <!-- GitHub Streak -->
-  <img 
-    src="https://streak-stats.demolab.com?user=Alkapensemyu&theme=dark&date_format=M%20j%5B%2C%20Y%5D" 
-    alt="GitHub Streak"
-    width="500"
+  <p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Alkapensemyu&theme=tokyonight" alt="GitHub Streak" />
+</p>
   />
 
 
