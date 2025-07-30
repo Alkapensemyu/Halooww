@@ -29,8 +29,11 @@
     alt="GitHub Stats"
     width="500"
   />
+## 🔥 GitHub Streak
 
-  [![GitHub Streak](https://streak-stats.demolab.com/?user=Alkapensemyu&theme=tokyonight&hide_border=true&border_radius=10)](https://git.io/streak-stats)
+[![GitHub Streak](https://streak-stats.demolab.com?user=alkapensemyu&theme=tokyonight&hide_border=true&border_radius=10)](https://git.io/streak-stats)
+
+  
   />
 
 
