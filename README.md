@@ -32,7 +32,7 @@
 
   <!-- GitHub Streak -->
   <img 
-    src="https://streak-stats.demolab.com?user=Alkapensemyu&theme=dark&date_format=M%20j%5B%2C%20Y%5D" 
+    src="https://streak-stats.demolab.com?username=Alkapensemyu&theme=dark&date_format=M%20j%5B%2C%20Y%5D" 
     alt="GitHub Streak"
     width="500"
   />
