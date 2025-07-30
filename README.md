@@ -29,12 +29,7 @@
 
   <!-- Streak -->
   <img src="https://github-readme-streak-stats.herokuapp.com/?username=Alkapensemyu&theme=tokyonight&ring=A259FF&currStreakLabel=A259FF" width="48%" />
-</p>
-
-<!-- Language Pie -->
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Alkapensemyu&layout=compact&theme=tokyonight&title_color=A259FF" width="40%" />
-</p>
+</p/>
 
 ---
 
