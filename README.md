@@ -33,7 +33,7 @@
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Alkapensemyu&style=flat-square&color=blue" alt="Visitor Count" />
+  <img src="https://github-profile-trophy.vercel.app/?username=Alkapense&theme=onedark" alt="GitHub Trophy" />
 </p>
 
 
