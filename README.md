@@ -36,7 +36,7 @@
   <a href="https://www.instagram.com/alkaaynn?igsh=MXU4aGM2cjdtMG15OA==">
     <img src="https://img.shields.io/badge/Instagram-833AB4?style=for-the-badge&logo=instagram&logoColor=white"/>
   </a>
-  <a href="mailto: inialkaamwehehe@gmail.com@gmail.com">
+  <a href="mailto: inialkaamwehehe@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-A259FF?style=for-the-badge&logo=gmail&logoColor=white"/>
   </a>
 </p>
