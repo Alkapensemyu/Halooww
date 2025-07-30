@@ -1,4 +1,4 @@
-<h1 align="center" style="color:#a259ff;">🪐 WELCOME 🪐</h1>
+<h1 align="center" style="color:#a259ff;">🪐 welcome 🪐</h1>
 
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=A259FF&center=true&vCenter=true&width=500&lines=+helloww+im+Alka+;sangat+%7C+amat+%7C+sigma+;Let’s+create+something+beautiful!" alt="Typing SVG" />
@@ -40,9 +40,6 @@
 
 🌍 [GitHub Global](https://github-contribution-graph.vercel.app/?username=Alkapensemyu)
 
-<p align="center">
-  <img src="https://activity-graph.herokuapp.com/graph?username=Alkapensemyu&theme=github" />
-</p>
 
 
 
