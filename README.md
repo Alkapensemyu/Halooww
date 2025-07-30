@@ -36,7 +36,13 @@
     alt="GitHub Streak"
     width="500"
   />
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Alkapensemyu&layout=compact&theme=tokyonight)
+### 📌 Highlighted Projects
+
+- 🔧 [Pixel Dungeon](https://github.com/Alkapensemyu/pixel-dungeon)  
+  Mini canvas-based game built with JS + retro UI.
+
+- 🪄 [Magic Buttons](https://github.com/Alkapensemyu/magic-buttons)  
+  Beautiful CSS-only animated buttons for web apps.
 
 </div>
 
