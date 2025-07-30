@@ -1,4 +1,4 @@
-<h1 align="center">Hi there, I'm **[alkaa]** 👋</h1>
+<h1 align="center">Hi there, I'm **[alka]** 👋</h1>
 
 <p align="center">
   <img src="assets/banner.png" alt="Banner" width="600"/>
