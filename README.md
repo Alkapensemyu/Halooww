@@ -32,7 +32,8 @@
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Alkapensemyu&theme=tokyonight" alt="GitHub Streak" />
 </p>
 
-### 🏆 GitHub Trophy (masih pemula)
+### 🏆 GitHub Trophy
+(masih pemula)
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=Alkapensemyu&theme=onedark" alt="GitHub Trophy" />
 </p>
