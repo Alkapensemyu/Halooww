@@ -33,7 +33,7 @@
 </p>
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Alkapense&theme=onedark" alt="GitHub Trophy" />
+  <img src="https://github-profile-trophy.vercel.app/?username=Alkapensemyu&theme=onedark" alt="GitHub Trophy" />
 </p>
 
 
