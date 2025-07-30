@@ -1,7 +1,7 @@
 <h1 align="center" style="color:#a259ff;">🪐 hallow gweh alka  👋</h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=A259FF&center=true&vCenter=true&width=500&lines=Hi,+helloww+im+Alka+.;Creative+Dev+%7C+Game+Builder+%7C+sigma+.;Let’s+create+something+beautiful!" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=A259FF&center=true&vCenter=true&width=500&lines=,+helloww+im+Alka+.;Creative+Dev+%7C+Game+Builder+%7C+sigma+.;Let’s+create+something+beautiful!" alt="Typing SVG" />
 </p>
 
 ---
