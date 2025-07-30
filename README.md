@@ -1,37 +1,32 @@
-<h1 align="center">Hi there, I'm Alka YGY 👋</h1>
+<h1 align="center">Hi there, I'm **[alkaa]** 👋</h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=1000&center=true&vCenter=true&color=F75C7E&width=435&lines=Welcome+to+my+GitHub!;I'm+a+passionate+developer!;Let's+build+something+cool!" alt="Typing SVG" />
+  <img src="assets/banner.png" alt="Banner" width="600"/>
+</p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=4000&pause=1500&center=true&vCenter=true&color=9b59b6&width=480&lines=Welcome+to+my+purple+space!;Web+Dev+|+Pixel+Artist+|+Dreamer;" />
 </p>
 
 ---
 
 ### 🔧 About Me
-- 🔭 I’m currently working on cool front-end and game projects.
-- 🌱 I’m learning WebGL and advanced CSS animations.
-- 💬 Ask me about anything related to HTML, CSS, JS or game design.
-- 🎮 Passionate about pixel art & indie games.
+- 🌌 Passionate about front-end, pixel art, and dreamy interfaces 🎨
+- 👾 Currently building WebGL & CSS‑animated micro‑games
+- 🇮🇩 Bahasa / 🇺🇸 English — feel free to chat!
 
 ---
 
 ### 🚀 Tech Stack
+
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,react,python,figma" />
+  <img src="https://skillicons.dev/icons?i=html,css,js,react,ts,figma" />
 </p>
 
 ---
 
-### 📈 GitHub Stats
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=alkaYGY&show_icons=true&theme=tokyonight" />
-  <br/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=alkaYGY&theme=tokyonight" />
-</p>
+### ✨ Aesthetic Animation Preview
 
----
-
-### 📫 Connect with Me
-<p align="center">
-  <a href="https://instagram.com/yourusername"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/></a>
-  <a href="mailto:youremail@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-</p>
+```html
+<!-- Tambahkan ini di file HTML atau embed SVG/CSS -->
+<img class="floating" src="assets/floating-icon.svg" width="60" alt="Floating icon"/>
