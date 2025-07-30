@@ -23,13 +23,23 @@
 
 ### 📊 GitHub Activity & Stats
 
-<p align="center">
-  <!-- Total Stats -->
-  <img src="https://github-readme-stats.vercel.app/api?username=Alkapensemyu&show_icons=true&theme=tokyonight&title_color=A259FF&icon_color=A259FF" width="48%" />
+<div style="text-align: center;">
 
-  <!-- Streak -->
-  <img src="https://github-readme-streak-stats.herokuapp.com/?username=Alkapensemyu&theme=tokyonight&ring=A259FF&currStreakLabel=A259FF" width="48%" />
-</p/>
+  <!-- GitHub Stats -->
+  <img 
+    src="https://github-readme-stats.vercel.app/api?username=Alkapensemyu&show_icons=true&theme=dark" 
+    alt="GitHub Stats"
+    width="500"
+  />
+
+  <!-- GitHub Streak -->
+  <img 
+    src="https://streak-stats.demolab.com?user=Alkapensemyu&theme=dark&date_format=M%20j%5B%2C%20Y%5D" 
+    alt="GitHub Streak"
+    width="500"
+  />
+
+</div>
 
 ---
 
